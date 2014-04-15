@@ -11,6 +11,7 @@ CREATE TABLE People (
   `year` VARCHAR(64) NOT NULL,
   `status` VARCHAR(64) NOT NULL,
   `query` VARCHAR(64) NOT NULL,
+  `major` VARCHAR(32) NOT NULL,
   UNIQUE KEY(eid),
   UNIQUE KEY(account),
   UNIQUE KEY(email)
